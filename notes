@@ -12,3 +12,11 @@ Use Effect in Hook
 Example - 1. API request to our backend service.
           2. Calls to our authentication service.
           3. Error tracking calls to Sentry.
+
+
+***Important:- 1. useEffect call itself automatically.
+               2. In a component, if every things will be done then execute useEffect at the end.
+
+* useEffect takes two arrguments first is call back function and second is dependency array.
+
+* Inside any condition we can't use React hooks.
