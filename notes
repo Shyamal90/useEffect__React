@@ -22,3 +22,5 @@ Example - 1. API request to our backend service.
 * Inside any condition we can't use React hooks.
 
 * If you pass empty array([]) , this mean useEffect only run first time when page is render.
+
+*** Components phases - 1. Mounting 2. Update 4.Unmount
