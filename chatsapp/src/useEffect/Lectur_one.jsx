@@ -6,7 +6,7 @@ function Lectur_one() {
   //Write code of useEffect
   useEffect(()=>{
       document.title = `${count <= 0 ? "Chats": "Chats(" + count + ")"}`
-  })
+  },[count])
   return (
     <div>
       <h1>{count}</h1>

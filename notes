@@ -17,6 +17,8 @@ Example - 1. API request to our backend service.
 ***Important:- 1. useEffect call itself automatically.
                2. In a component, if every things will be done then execute useEffect at the end.
 
-* useEffect takes two arrguments first is call back function and second is dependency array.
+* useEffect takes two arrguments first is call back function and second is dependency list/dependecy array.
 
 * Inside any condition we can't use React hooks.
+
+* If you pass empty array([]) , this mean useEffect only run first time when page is render.
