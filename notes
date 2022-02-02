@@ -1,0 +1,14 @@
+=======================
+=======================
+Use Effect in Hook
+======================
+======================
+
+
+* Hooks are new addition in React 16.8. Without writing a class.
+* The effect hook lets you perform side effects in function components.
+* Side effects means - basically anything that affects somethings outside of the scope of the current function that's being executed.
+
+Example - 1. API request to our backend service.
+          2. Calls to our authentication service.
+          3. Error tracking calls to Sentry.
